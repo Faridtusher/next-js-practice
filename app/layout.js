@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <nav>
           <ul className="flex gap-6">
-            <Link href='/about'><li>About</li></Link>
+            <Link  href='/about'><li>About</li></Link>
             <Link href='/contact'> <li>Contact</li></Link>
           </ul>
         </nav>

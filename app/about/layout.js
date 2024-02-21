@@ -8,6 +8,7 @@ const aboutLayout = ({children}) => {
             <ul className='flex gap-10'>
                <Link href='/about/mission' > <li>Mission</li> </Link>
                <Link href='/about/vision' > <li>Vision</li> </Link>
+               <Link href='/about/abc' > <li>Computer</li> </Link>
             </ul>
          </nav>
 
