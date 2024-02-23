@@ -1,4 +1,4 @@
- import { Roboto } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 
@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
             <Link  href='/about'><li>About</li></Link>
             <Link href='/contact'> <li>Contact</li></Link>
             <li><Link href='/blog'>Blog</Link></li>
+            <li><Link href='/posts'>Posts</Link></li>
           </ul>
         </nav>
         {children}

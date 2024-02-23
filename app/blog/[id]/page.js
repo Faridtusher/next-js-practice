@@ -1,10 +1,15 @@
 import { notFound } from 'next/navigation';
 import React from 'react';
 
+export const metadata = {
+   title: "Blog Page",
+   description: "This is the Blog page",
+};
+
 const blogPage = ({params}) => {
    const { id } = params ; 
 
-   if (id >= id){
+   if (id >= 4){
       notFound();
    }
    return (
